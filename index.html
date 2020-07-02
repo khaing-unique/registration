@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@800&family=Questrial&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@800&family=Questrial&family=Quicksand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@800&family=Questrial&family=Quicksand:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@800&family=Questrial&family=Quicksand:wght@300;400&family=Tenali+Ramakrishna&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@800&family=Muli:ital,wght@0,600;1,400&family=Questrial&family=Quicksand:wght@300;400&family=Tenali+Ramakrishna&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Heebo:wght@800&family=Muli:ital,wght@0,600;1,400&family=Questrial&family=Quicksand:wght@300;400&family=Tenali+Ramakrishna&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="images/register.jpg" type="image/icon">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="responsive.css"> -->
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Registration!</h1>
+        <div class="form-container">
+            <form autocomplete="off">
+                    <div class="container">
+                      <label for="name">Your Name</label>
+                      <div class="name">
+                    
+                      <i class="fa fa-exclamation-circle" aria-hidden="true" style="font-size:15px;color: red;"></i>
+                      <input type="text" required id="name" placeholder="Enter Your Name">
+        
+                      </div>
+                      <label for="email">Your Email</label>
+                      <div class="name">
+                      
+                      <i class="fa fa-exclamation-circle" aria-hidden="true" style="font-size:15px;color: red;"></i>
+                      <input type="text" required id="email" placeholder="Enter your email address">
+                      
+                      </div>
+                      
+                      <div class="genders">
+                      <label for="" >Gender</label>
+                      <div class="gender">
+                        <input id="male" type="radio" name="gender" value="Male">
+                        <label for="male">Male</label>
+                        <input id="female" type="radio" name="gender" value="Female">
+                        <label for="female">Female</label>
+                      </div></div>
+          
+                      <label for="qua" >Your Quarlification</label>
+                      <div class="name">
+                    
+                      <i class="fa fa-exclamation-circle" aria-hidden="true" style="font-size:15px;color: red;"></i>
+                      <input type="text" required id="qua" placeholder="Enter your quarlification">
+                      </div>
+                      <label for="address">Your Address</label>
+                      <div class="name">
+                      
+                      <i class="fa fa-exclamation-circle" aria-hidden="true" style="font-size:15px;color: red;"></i>
+                      <input type="text"  required id="address" placeholder="Enter your address">
+                      </div>
+                      
+                      <label for="address" style="margin-left: 25px;">Your Profile image</label>
+                      <div class="name">
+                      <input type="file" name="pf"  accept="image/*">
+                      </div>
+                      <div class="need">
+                      <label for="" >Attended Class</label>
+                      <div class="mystyle">
+                          <select>
+                            <option>Advance Class</option>
+                            <option>Basic Class</option>
+                            <option selected>Intermediate Class</option>
+                          </select>
+                        </div></div>
+                      <div class="need">
+                    <label for="">Select Courses</label>
+                      <div class="mystyle">
+                        <select>
+                          <option>Course-2</option>
+                          <option>Course-3</option>
+                          <option selected>Course-1</option>
+                        </select>
+                      </div></div>
+                      <div class="date">
+                      <label for="">Date</label>
+                      <div class="calender">
+                      <input type="date"  style="margin-top: 5px;" class="input"  required>
+                      </div></div>
+                      <div class="sms">
+                      <label for="area">Message</label>
+                      <div class="name">
+                      
+                      <i id="exicon" class="fa fa-exclamation-circle" aria-hidden="true" style="font-size:15px;color: red;margin-left: 300px;"></i>
+                      <textarea id="area" required  placeholder="Your message here..."></textarea>
+                      </div></div>
+                      <br>
+                      <div class="arrow">
+                      <button type="submit" name="submit" >Submit
+                      <span>&#10142</span></div>
+                      </button></div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
